@@ -11,7 +11,7 @@ const Group = ({title,array,getIconGrp,groupingOption})=>{
                     <img width={15} height={15} style={{borderRadius:"50%"}} className='' src={`https://picsum.photos/seed/${title}/200`} alt='logo'/>}
                 </span>
                 <span>{title}</span>
-                <span style={{color:"#D3D3D3"}}>{array.length}</span>
+                <span style={{color:"#818589"}}>{array.length}</span>
             </div>
             <div style={{ display:"flex", alignItems:"flex-start", color:"#70747B !important", gap:"0.5rem"}}>
                 <button><BsPlus/></button>
