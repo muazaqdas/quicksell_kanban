@@ -131,7 +131,7 @@ const KanbanBoard = ({ tickets, users }) => {
   return (
     <div>
         <div style={{backgroundColor:"white", padding:"20px"}}>
-            <div style={{position:"relative", width:"fit", fontSize:"12px"}}>
+            <div style={{position:"relative", width:"fit-content", fontSize:"12px"}}>
                 <button className='displayBtn' onClick={() =>{
                     setDisplayOpen(!isDisplayOpen);}}>
                     <IoMdOptions/><span>Display</span><IoIosArrowDown style={isDisplayOpen?{rotate:"180deg"}:{}}/>
@@ -155,7 +155,7 @@ const KanbanBoard = ({ tickets, users }) => {
                         </div>
                     </div>
                     }
-                </div>
+            </div>
         </div>
       <div className='main'>
       {Object.entries(groupNSort())?.map(([title,array],index)=>{

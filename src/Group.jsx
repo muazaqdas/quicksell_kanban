@@ -19,7 +19,7 @@ const Group = ({title,array,getIconGrp,groupingOption})=>{
             </div>
         </div>
         <div style={{display:"flex", flexDirection:"column", gap:"0.5rem"}}>
-            {array?.map((item,index)=><Card key={index} item={item}/>)}
+            {array?.map((item,index)=><Card key={index} item={item} groupOpt={groupingOption} getIconGrp={getIconGrp}/>)}
         </div>
     </div>
     )

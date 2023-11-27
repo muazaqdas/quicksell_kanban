@@ -102,14 +102,20 @@ width: 91.666667%;
 .profile{
   width: 8.333333%; 
 }
-
+.tags{
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+.tags img{
+  padding: 0.125rem;
+}
 .tagBox{
   display: flex; 
   padding: 0.125rem; 
   gap: 0.25rem; 
   align-items: center; 
   border-radius: 2px; 
-  width: fit-content; 
   border: solid 1px rgb(241 245 249);;
   width: fit-content;
 }
